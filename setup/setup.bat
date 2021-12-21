@@ -1,7 +1,7 @@
-mkdir C:\Users\wwwto\π\setup
+mkdir %USERPROFILE%\π\setup
 
-bitsadmin /transfer download https://github.com/apple-pi-yhhhh/topitopi.exe/blob/main/setup/main.zip?raw=true C:\Users\wwwto\π\setup.zip
+bitsadmin /transfer download https://github.com/apple-pi-yhhhh/topitopi.exe/blob/main/test/setup/test.zip?raw=true %USERPROFILE%\π\setup.zip
 
-cd C:\Users\wwwto\π
+cd %USERPROFILE%\π
 
 call powershell -command "Expand-Archive -Force setup.zip setup"
